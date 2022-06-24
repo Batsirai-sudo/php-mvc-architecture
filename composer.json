@@ -1,0 +1,25 @@
+{
+    "name": "string/sort-application",
+    "description": "Sort a string with the input from use",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "String\\SortApplication\\": "src/"
+        },
+        "files": [
+            "src/Helpers/helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Batsirai Muchareva",
+            "email": "much.batsy@gmail.com"
+        }
+    ],
+    "require": {
+        "spatie/ray": "^1.34"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
